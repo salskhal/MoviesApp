@@ -20,7 +20,7 @@ const handleSubmit = () => {
     </div>
     <form @submit.prevent="handleSubmit">
       <input type="text" placeholder="Search for a movie" class="bg-slate-300 border-transparent focus:ring-2 outline-none focus:border-transparent rounded-md py-2 px-4 block w-full" v-model="inputValue"/>
-      <button class="p-10 text-white border bg-none" >Search</button>
+      <button class="px-10 py-3 mt-4 text-white border bg-none" >Search</button>
     </form>
   </div>
 </template>
